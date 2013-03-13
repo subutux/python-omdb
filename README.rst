@@ -10,7 +10,11 @@ Searching by title
 
 	import omdb
 
-	>>> omdb.search("Idiocracy")
-	[{'Year': '2006', 'imdbID': 'tt0387808', 'Title': 'Idiocracy'}]
+	>>> results = omdb.search("Idiocracy")
+	[Movie,Movie,...]
+	>>> print results[0].title
+	Idocracy
 
-omdb.search() will return a list of dicts. Those dicts contain the data returned by the OMDb API.
+
+
+omdb.search() will return a list of dicts. Those dicts contain Movie objects, containing all the information found from that movie. See source.

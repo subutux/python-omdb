@@ -19,12 +19,12 @@ VERSION = omdb.__version__
 setup(
 	name = "python-omdb",
 	py_modules = ["omdb"],
-	author = "Jerome Leclanche",
-	author_email = "jerome.leclanche+omdb@gmail.com",
+	author = "Stijn Van Campenhout",
+	author_email = "stijn.vancampenhount@gmail.com",
 	classifiers = CLASSIFIERS,
 	description = "Python bindings for the omdbapi.com service",
-	download_url = "http://github.com/Adys/python-omdb/tarball/master",
+	download_url = "http://github.com/subutux/python-omdb/tarball/master",
 	long_description = README,
-	url = "http://github.com/Adys/python-omdb",
+	url = "http://github.com/subutux/python-omdb",
 	version = VERSION,
 )
