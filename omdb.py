@@ -1,3 +1,5 @@
+__version___ = "0.1"
+
 import json
 try:
 	from urllib.parse import quote
